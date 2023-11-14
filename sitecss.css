@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 77%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color:rgb(30, 28, 28);
+    padding: 15px;  
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo img{
+    width: 55%;
+}
+.list ul{
+    list-style-type:none ;
+    display: flex;
+    padding: 8px;
+}
+.list ul li{
+   
+    margin-right: 15px;
+    font-size: 14px;
+}
+.list a{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.portfolio{
+    background-color:rgb(248, 249, 250);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.portfolio h2{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:700;
+}
+.portfolio p{
+    font-style: italic;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px 6px;
+
+}
+
+.portfolio-item{
+    background-color: white;
+
+   padding: 7px;
+    width: 32%;
+
+
+}
+.portfolio img {
+    display: block;
+    width: 100%;
+    
+}
+
+.portfolio-cap h3{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 700;
+    padding: 30px;
+}
+
